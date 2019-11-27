@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		698A942A238DFD0900DC83C6 /* Magic 8-Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic 8-Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		698A942A238DFD0900DC83C6 /* Idea Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Idea Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		698A942D238DFD0900DC83C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		698A942F238DFD0900DC83C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		698A9431238DFD0900DC83C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		698A942B238DFD0900DC83C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				698A942A238DFD0900DC83C6 /* Magic 8-Ball.app */,
+				698A942A238DFD0900DC83C6 /* Idea Generator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			);
 			name = MagicEightBall;
 			productName = MagicEightBall;
-			productReference = 698A942A238DFD0900DC83C6 /* Magic 8-Ball.app */;
+			productReference = 698A942A238DFD0900DC83C6 /* Idea Generator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -292,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chelcastel.MagicEightBall;
-				PRODUCT_NAME = "Magic 8-Ball";
+				PRODUCT_NAME = "Idea Generator";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +310,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chelcastel.MagicEightBall;
-				PRODUCT_NAME = "Magic 8-Ball";
+				PRODUCT_NAME = "Idea Generator";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

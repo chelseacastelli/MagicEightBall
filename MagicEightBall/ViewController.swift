@@ -10,10 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let answers = ["Yes, definitely", "It is certain", "Without a doubt", "Yes", "Most likely", "Sure, why not?", "Same", "Tell me more", "Out to lunch", "Reply hazy, try again", "Ask again later", "The cake is a lie", "42", "TMI", "Very doubtful", "Don't count on it", "My reply is no", "Absolutely not"]
-
+    let startups = ["Make School", "Uber", "Netflix", "Facebook", "Google", "Kickstarter", "Spotify", "Airbnb", "Snapchat", "YouTube", "Dropbox", "Amazon", "Craigslist", "Tinder", "Instagram", "Tesla", "Twitter", "SpaceX"]
     
-    @IBOutlet weak var answerLabel: UILabel!
+    let industries = ["Dogs", "Books", "Gamers", "Star Wars", "Bitcoin", "Goats", "Zombies", "Rich People", "Swimmers", "Florida", "Vampires", "Dragons", "Internet of Things", "Mars", "Cryptocurrency", "Mosquito Repellent", "Fidget Spinners", "Sun Screen", "Water Bottles", "Lost Travelers", "Superheroes"]
+
+    @IBOutlet weak var startupLabel: UILabel!
+    @IBOutlet weak var industryLabel: UILabel!
     @IBOutlet weak var shakeButton: UIButton!
     
     override func viewDidLoad() {
@@ -33,9 +35,11 @@ class ViewController: UIViewController {
      }
     
     func generateAnswer() {
-        let randomIndex = Int.random(in: 0..<answers.count)
+        let randomStartup = Int.random(in: 0..<startups.count)
+        let randomIndustry = Int.random(in: 0..<industries.count)
         
-        answerLabel.text = answers[randomIndex]
+        startupLabel.text = startups[randomStartup]
+        industryLabel.text = industries[randomIndustry]
     }
     
     
